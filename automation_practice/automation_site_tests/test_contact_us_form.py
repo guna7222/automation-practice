@@ -2,7 +2,7 @@
 
 from seleniumbase import BaseCase
 
-from automation_site_pages.page_contact_us_form import PageContactUsForm
+from automation_practice.automation_site_pages.page_contact_us_form import PageContactUsForm
 
 
 class TestContactUsForm(BaseCase):

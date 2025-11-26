@@ -1,4 +1,4 @@
-from config.defaults import ABOUT_US_PAGE_URL
+from automation_practice.config.defaults import ABOUT_US_PAGE_URL
 
 class AboutUsPage:
 

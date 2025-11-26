@@ -1,7 +1,7 @@
 from seleniumbase import BaseCase
-from config.defaults import BASE_URL
-from config.defaults import EMAIL1
-from config.defaults import password
+from automation_practice.config.defaults import BASE_URL
+from automation_practice.config.defaults import EMAIL1
+from automation_practice.config.defaults import password
 
 
 class PageLoginOrSignup:

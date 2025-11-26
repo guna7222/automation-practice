@@ -2,7 +2,7 @@
 import sys, os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from seleniumbase import BaseCase
-from react_pages.about_us_page import AboutUsPage
+from automation_practice.react_pages.about_us_page import AboutUsPage
 
 
 class TestAboutUsPage(BaseCase):

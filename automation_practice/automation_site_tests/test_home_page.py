@@ -1,5 +1,5 @@
 from seleniumbase import BaseCase
-from automation_site_pages.page_home import PageHome
+from automation_practice.automation_site_pages.page_home import PageHome
 
 class TestHomePage(BaseCase):
 

@@ -1,6 +1,6 @@
 from seleniumbase import BaseCase
-from config.defaults import HOME_PAGE_URL
-from config.defaults import DEMO_PAGE_URL
+from automation_practice.config.defaults import HOME_PAGE_URL
+from automation_practice.config.defaults import DEMO_PAGE_URL
 
 class HomePage:
 

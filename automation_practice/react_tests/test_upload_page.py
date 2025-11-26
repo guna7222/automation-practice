@@ -1,7 +1,7 @@
 import sys, os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from seleniumbase import BaseCase
-from react_pages.upload_page import UploadPage
+from automation_practice.react_pages.upload_page import UploadPage
 
 
 class TestUploadPage(BaseCase):

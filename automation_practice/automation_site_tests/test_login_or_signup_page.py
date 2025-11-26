@@ -1,13 +1,13 @@
 
 
 from seleniumbase import BaseCase
-from automation_site_pages.page_login_or_singup import PageLoginOrSignup
-from config.defaults import LOGIN_URL
-from config.defaults import email
-from config.defaults import password
+from automation_practice.automation_site_pages.page_login_or_singup import PageLoginOrSignup
+from automation_practice.config.defaults import LOGIN_URL
+from automation_practice.config.defaults import email
+from automation_practice.config.defaults import password
 from parameterized import parameterized
-from config.defaults import EMAIL1
-from config.defaults import username
+from automation_practice.config.defaults import EMAIL1
+from automation_practice.config.defaults import username
 import pytest
 
 class TestLoginOrSignupPage(BaseCase):

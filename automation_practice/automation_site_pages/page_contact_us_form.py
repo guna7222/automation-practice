@@ -1,7 +1,7 @@
 import os.path
 
 from seleniumbase import BaseCase
-from config.defaults import BASE_URL
+from automation_practice.config.defaults import BASE_URL
 
 class PageContactUsForm:
 

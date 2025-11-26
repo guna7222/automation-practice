@@ -1,6 +1,6 @@
 import os.path
 
-from config.defaults import UPLOAD_PAGE_URL
+from automation_practice.config.defaults import UPLOAD_PAGE_URL
 
 class UploadPage:
     def __init__(self, sb):

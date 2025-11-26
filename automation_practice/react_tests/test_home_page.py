@@ -1,5 +1,5 @@
 from seleniumbase import BaseCase
-from react_pages.home_page import HomePage
+from automation_practice.react_pages.home_page import HomePage
 import sys, os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
