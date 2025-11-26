@@ -1,0 +1,5 @@
+implicit wait - sets a global wait time for all elements
+driver.implicitly_wait(10)  # second
+
+hooks : are used to customize the behavior of the test execution
+setup and teardown examples
