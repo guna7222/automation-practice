@@ -26,16 +26,21 @@ class MovieTicket:
 
     # calculate final price
     def final_ticket_price(self):
-        total_discount = (
-            self.children_discount()
-            + self.senior_discount()
-            + self.show_time_discount()
+        # calculate discounts
+        discount_child = self.children_discount()
+        discount_senior = self.senior_discount()
+        discount_show = self.show_time_discount()
 
-        )
-
+        total_discount = discount_child + discount_senior + discount_show
         final_price = self.ticket_price - total_discount
 
+        # if age between 13 and 59 → no age discount
+        if 13 <= self.age <= 59 and discount_show == 0:
+            return self.ticket_price  # no discount at all
+
         return final_price
+
+
 
 
 # Testing
