@@ -76,6 +76,10 @@ class ListExample:
 
         return unique_values
 
+    # 2nd larges number in the list
+    def second_largest_number(self):
+        pass
+
 
 list_example = ListExample(['apple', 'banana', 'cherry', 'banana'])
 print(list_example.items)

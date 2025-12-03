@@ -26,6 +26,18 @@ class DictionaryExample:
         # removing random key-value pair
         print(self.data.popitem())
 
+# items()
+# values()
+# keys()
+# pop('key')
+# popitem()
+# update({'key': 'value'})
+# get('key')
+# clear()
+# del dict['key']
+# del dict
+# copy()
+
 
 dict_example = DictionaryExample({"name": "Guna", "age": 25, "city": "Chennai"})
 dict_example.print_dictionary()
